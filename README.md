@@ -35,11 +35,13 @@ flutter run
 4. **🗂 Project Structure**
 ```bash
 lib/
-├── main.dart                 # Entry point
-├── minesweeper.dart          # Grid & prefix sum logic
-├── cell.dart                 # Cell model class
-├── game.dart                 # Game logic: reveal, flood fill, win check
-└── minesweeper_widget.dart   # Flutter UI
+├── main.dart
+├── models/
+│   ├── cell.dart
+│   ├── minesweeper.dart
+│   └── minesweeper_game.dart
+└── widgets/
+    └── mine_board.dart
 ```  
 5. **How it works**
 
